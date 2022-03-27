@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+      integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>EMAIL DEVELOPMENT</title>
+    <style type="text/css">
+      table {
+        border-spacing: 0;
+      }
+
+      td {
+        padding: 0;
+      }
+
+      img {
+        border: 0;
+      }
+      .wrapper {
+        width: 100%;
+        table-layout: fixed;
+        background-color: #cccccc;
+        padding-bottom: 60px;
+      }
+
+      i {
+        font-size: 22px;
+        padding-right: 0.3rem;
+        padding-top: 1rem;
+        padding-left: 0.3rem;
+      }
+      a {
+        text-decoration: none;
+      }
+      .main {
+        background-color: #ffffff;
+        margin: auto 0;
+        max-width: 600px;
+        border-spacing: 0;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        color: #171a1b;
+      }
+      .pad{
+        padding: 15px;
+        background-color: rgb(245, 212, 245)
+      }
+      
+        
+      
+      .two-columns {
+        text-align: center;
+        font-size: 0;
+      }
+      .two-columns .column {
+        width: 100%;
+        max-width: 300px;
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+      }
+      .three-columns{
+        text-align: center;
+        font-size: 0;
+        padding: 30px 0  15px;
+        
+      }
+
+      .three-columns .column{
+        width: 100%;
+        max-width: 200px;
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+      }
+
+      .three-columns .padding{
+         font-size: 15px;
+         line-height: 20px;
+         padding: 0 5px;
+      }
+      .two-columns.last{
+        padding: 15px 0;
+      }
+      .two-columns .padding{
+        padding: 20px;
+      }
+      .two-columns .content{
+        font-size: 15px;
+        line-height: 20px;
+        text-align: left;
+      }
+      .button{
+        background-color: #ffffff;
+        color: #171a1b;
+        border-radius: 5px;
+        padding: 12px 20px;
+        font-weight: bold;
+        text-decoration: none;
+      }
+     .button-dark{
+       background-color: #171a1b;
+       color: #ffffff;
+       border-radius: 5px;
+        padding: 12px 20px;
+        font-weight: bold;
+        text-decoration: none;
+     }
+
+    </style>
+  </head>
+
+  <body>
+    <center class="wrapper">
+      <table class="main" width="100%">
+        <!-- top border -->
+        <tr>
+          <td height="8" style="background-color: #171a1b"></td>
+        </tr>
+
+        <!-- logo section-->
+        <tr>
+          <td style="padding: 14px 0 4px">
+            <table width="100%">
+              <tr>
+                <td class="two-columns">
+                  <table class="column">
+                    <tr>
+                      <td style="padding: 0 62px 10px">
+                        <a href="#">
+                          <img src="images/logo.png " width="120px" alt="" />
+                        </a>
+                      </td>
+                    </tr>
+                  </table>
+                  <table class="column">
+                    <tr>
+                      <td style="padding: 10px 72px">
+                        <a href="#" class="link-dark">
+                          <i class="fa-brands fa-facebook-square"></i>
+                        </a>
+                        <a href="# " class="link-dark">
+                          <i class="fa-brands fa-instagram-square"></i>
+                        </a>
+                        <a href="# " class="link-dark">
+                          <i class="fa-brands fa-twitter-square"></i>
+                        </a>
+                        <a href="# " class="link-dark">
+                          <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="# " class="link-dark">
+                          <i class="fa-brands fa-tiktok"></i>
+                        </a>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!-- Banner text -->
+        <tr>
+          <td class="pad">
+            <table class="card  text-white pb-3" >
+              <a href="#"
+                ><img
+                  src="https://images.pexels.com/photos/3851696/pexels-photo-3851696.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  class="card-img"
+                  alt="..."
+                  max-width="100%"
+                />
+              </a>
+              <table
+                class="card-img-overlay" id="bg" 
+                max-width="100%"
+              >
+                <h6 class="text-danger fw-bold">GIST OF THE DAY</h6>
+                <h5 class="card-title fs-3 text-danger fw-bold">
+                  SHOULD GIRLS DO TECH TOO?
+                </h5>
+                <p class="card-text text-dark fs-5">
+                  Hey Martins Victory,Lorem ipsum dolor sit, amet consectetur
+                  adipisicing elit. Tempore veritatis aperiam voluptatibus fuga.
+                </p>
+                <p
+                  class="card-text text-danger fs-5 fw-bold fst-italic float-end"
+                  max-width="100%"
+                >
+                  Newsletter by Martins Victory
+                  <img
+                    src="https://images.unsplash.com/photo-1492633423870-43d1cd2775eb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                    alt=""
+                    width="60rem"
+                    style="border-radius: 60%"
+                  />
+                </p>
+              </table>
+            
+          </td>
+        </tr>
+        <!-- Three Column Section -->
+        <tr>
+          <td>
+            <table width=" 100%">
+              <tr>
+                <td class="three-columns">
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <a href="#"
+                                ><img
+                                  src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                  alt=""
+                                  width="140px"  height="140px"
+                                  style="max-width: 140px"
+                              /></a>
+                              <p class="fw-bold pt-3 " style="font-size:17px"> Software Engineering</p>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, quis.</p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <!-- second column -->
+
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <a href="#"
+                                ><img
+                                  src="https://images.pexels.com/photos/2777898/pexels-photo-2777898.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                  alt=""
+                                  width="140px" height="140px"
+                                  style="max-width: 140px"
+                              /></a>
+                              <p class="fw-bold pt-3" style="font-size:17px"> Artificial Intelligence</p>
+                              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, modi?</p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  
+                    <!-- third column -->
+                    <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <a href="#"
+                                ><img
+                                  src="https://images.pexels.com/photos/3810792/pexels-photo-3810792.jpeg"
+                                  alt=""
+                                  width="140px" height="140px"
+                                  style="max-width: 140px"
+                              /></a>
+                              <p class="fw-bold pt-3" style="font-size:17px">
+                                Product Management
+                              </p>
+                              <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, animi.
+                              </p>
+                              
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!-- two column last -->
+        <!-- section -->
+        <tr>
+          <td style="background-color: #262922; color: white;">
+            <table width="100%">
+              <tr>
+                  <td class="two-columns last">
+
+             <!--  end of section -->
+             <!--  padding -->
+              <table class="column">
+                <tr>
+                  <td class="padding">
+                 <!-- content -->
+                 <table class="content">
+                   <tr>
+                     <td>
+                       <a href="#"><img src="https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" width="260px" style="max-width: 260px;"></a>
+                     </td>
+                   </tr>
+                 </table>
+                 <!--  end of content-->
+                  </td>
+                  
+                </tr>
+              </table>
+               <!--  end of padding-->
+               <!--  end of column-->
+               <table class="column">
+                <tr>
+                  <td class="padding">
+                 <!-- content -->
+                 <table class="content">
+                   <tr>
+                     <td>
+                       <p style="font-weight: bold; font-size: 18px;">
+                         How to Transition to Tech
+                       </p>
+                       <p style="padding-bottom: 16px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, incidunt. Lorem ipsum dolor sit amet.</p>
+                       <a href="#" class="button"> Read More</a>
+                     </td>
+                   </tr>
+                 </table>
+                 <!--  end of content-->
+                  </td>
+                  
+                </tr>
+              </table>
+               <!--  end of padding-->
+               <!--  end of column-->
+
+                 </td>
+                </tr>
+            </table>
+          </td>
+        </tr>
+        <!-- end of two column last -->
+        <!-- start of title, text and button -->
+         <tr>
+           <td style="padding: 15px 0 45px">
+             <table width="100%">
+            <tr>
+              <td class="text-center p-3">
+                <p class="fs-4 fw-bold">
+                  Web Development Course
+                </p>
+                <p class="p-2 fs-5 1h-1">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam nesciunt magni, eligendi possimus quae facilis ipsum similique porro quo. Quos! Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, at.
+                </p>
+                <a href="#" class="button-dark">
+                  View Course
+                </a>
+              </td>
+            </tr>
+
+
+             </table>
+           </td>
+         </tr>
+
+        <!--  end of title, text and button -->
+        <!-- footer  -->
+        <tr>
+          <td style="background-color: #262922;">
+            <table width="100%">
+              <tr>
+                <td style="text-align: center; padding: 45px 20px;  color: #ffffff;">
+                  <a href="#"><img src="/images/logo.png"  width="180px" alt=""></a>
+                  <p style="padding: 10px;">   Women In Tech Industry.</p>
+                  <p style="padding: 10px;">   156 Victoria Street, lagos, Nigeria</p>
+                   <a href="#" class="link-light">
+                          <i class="fa-brands fa-facebook-square"></i>
+                        </a>
+                        <a href="# " class="link-light">
+                          <i class="fa-brands fa-instagram-square"></i>
+                        </a>
+                        <a href="# " class="link-light">
+                          <i class="fa-brands fa-twitter-square"></i>
+                        </a>
+                        <a href="# " class="link-light">
+                          <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="# " class="link-light">
+                          <i class="fa-brands fa-tiktok"></i>
+                        </a>
+                        <p style="padding-top: 20px; font-size: 1.1rem;">
+                         SUBCRIBE
+                        </p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!--  end of footer  -->
+
+      </table>
+    </center>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
